@@ -1,18 +1,40 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Built artifacts
+/[Bb]uild/
+/[Ll]ibrary/
+/[Oo]bj/
+/[Tt]emp/
+/[Uu]nityGenerated/
+/[Uu]nityPackageManager/
+/[Ii]nvoker Practice/
 
-# Other files and folders
-.settings/
+# User-specific files
+/[Ll]ibrary/Logs/
+/[Uu]serSettings/
+# Visual Studio Code
+.vscode/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Rider
+.idea/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains
+.idea/
+
+# Unity auto generated
+/[Aa]ssets/[Rr]ealtimeReflections/
+
+# Unity Cloud Build
+/[Bb]uild/[Cc]loud/[Bb]uild
+
+# Rider
+.idea/
+*.sln.iml
